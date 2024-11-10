@@ -25,7 +25,7 @@ arch=(
 )
 _http="https://github.com"
 _ns="sdipater"
-url="${_http}/${_ns}/${_pkgname}"
+url="${_http}/${_ns}/${_pkg}"
 license=(
   MIT
 )
@@ -40,7 +40,7 @@ makedepends=(
 checkdepends=(
   "${_py}-pytest"
 )
-_archive="${_pkgname}-${pkgver}"
+_archive="${_pkg}-${pkgver}"
 source=(
   "${url}/archive/${pkgver}/${_archive}.tar.gz"
 )
