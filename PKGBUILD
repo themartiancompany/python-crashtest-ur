@@ -24,8 +24,8 @@ arch=(
   any
 )
 _http="https://github.com"
-_ns="sdipater"
-url="${_http}/${_ns}/python-${_pkg}"
+_ns="sdispater"
+url="${_http}/${_ns}/${_pkg}"
 license=(
   MIT
 )
